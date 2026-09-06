@@ -14,7 +14,7 @@ function script.update(dt)
 
     
 
-    if ac.isKeyDown(9) and counter >= 1 then
+    if ac.isKeyDown(123) and counter >= 1 then
         physics.setCarPosition(0,camposs,-campossdir)
         counter = 0
     end    
